@@ -6,10 +6,11 @@ print("Perimeter:", perimeter)
 print("Area:", area)
 
 # TASK 2
-d=14
-pi=3.14
-length=pi*d
-print("Length",length)
+import math
+diameter = float(input("Enter the diameter of the circle: "))
+length = math.pi * diameter
+print("Length of the circle:", length)
+
 
 # TASK 3
 a = float(input("Enter number a: "))
